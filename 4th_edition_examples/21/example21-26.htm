@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> <!-- jqueryajaxpost.htm -->
+  <head>
+    <title>jQuery Ajax Post</title>
+    <script src='jquery-1.11.1.min.js'></script>
+  </head>
+  <body style='text-align:center'>
+    <h1>Loading a web page into a DIV</h1>
+    <div id='info'>This sentence will be replaced</div>
+  
+    <script>
+      $.post('urlpost.php', { url : 'amazon.com/gp/aw' }, function(data)
+      {
+        $('#info').html(data)
+      } )
+    </script>
+  </body>
+</html>

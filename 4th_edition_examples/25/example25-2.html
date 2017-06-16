@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Local Storage</title>
+    <script src='OSC.js'></script>
+  </head>
+  <body>
+    <script>
+      if (typeof localStorage == 'undefined')
+      {
+        alert("Local storage is not available")
+      }
+      else
+      {
+        username = localStorage.getItem('username')
+        password = localStorage.getItem('password')
+        alert("The current values of 'username' and 'password' are\n\n" +
+          username + " / " + password + "\n\nClick OK to assign values")
+
+        localStorage.setItem('username', 'ceastwood')
+        localStorage.setItem('password', 'makemyday')
+        username = localStorage.getItem('username')
+        password = localStorage.getItem('password')
+        alert("The current values of 'username' and 'password' are\n\n" +
+          username + " / " + password +  "\n\nClick OK to clear values")
+
+        localStorage.removeItem('username')
+        localStorage.removeItem('password')
+        username = localStorage.getItem('username')
+        password = localStorage.getItem('password')
+        alert("The current values of 'username' and 'password' are\n\n" +
+          username + " / " + password)
+      }
+    </script>
+  </body>
+</html>
