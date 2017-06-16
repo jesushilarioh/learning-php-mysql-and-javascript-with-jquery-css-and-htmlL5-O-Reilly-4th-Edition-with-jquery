@@ -1,6 +1,8 @@
 <?php
+// Sigle Line Comment
+
 /* This is a section
-   of multi-line comments
+   of Multi-Line Comments
    which will not be
    interpreted */
 ?>
