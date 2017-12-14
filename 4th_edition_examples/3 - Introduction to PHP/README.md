@@ -1,6 +1,5 @@
-# End of Chapter Review Questions
-1. What tag is used to cause PHP to start interpreting program code?
-And what is the short form of the tag?
+# Chapter 3 Review Questions
+1. What tag is used to cause PHP to start interpreting program code? And what is the short form of the tag?
 2. What are two types of comment tabs?
 3. Which character must be placed at the end of each PHP statement?
 4. Which symbol must be used to preface all PHP variables?
