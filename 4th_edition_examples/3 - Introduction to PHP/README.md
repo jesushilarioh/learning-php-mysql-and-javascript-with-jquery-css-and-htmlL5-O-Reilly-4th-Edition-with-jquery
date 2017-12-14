@@ -1,3 +1,4 @@
+# End of Chapter Review Questions
 1. What tag is used to cause PHP to start interpreting program code?
 And what is the short form of the tag?
 2. What are two types of comment tabs?
