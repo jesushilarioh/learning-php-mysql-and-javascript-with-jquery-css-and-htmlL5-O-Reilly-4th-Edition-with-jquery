@@ -1,8 +1,8 @@
 # Chapter 3 Review Questions
 1. **What tag is used to cause PHP to start interpreting program code? And what is the short form of the tag?**
-*The tag used to start PHP interpreting code is ```<?php...?>```, which can be shortened to ```<?...?>``` but is not recommended practice.*
+<br>*The tag used to start PHP interpreting code is ```<?php...?>```, which can be shortened to ```<?...?>``` but is not recommended practice.*
 2. **What are two types of comment tabs?**
-*You can use ```//``` for a single-line comment or ```/* */``` to span multiple lines.*
+<br>*You can use ```//``` for a single-line comment or ```/* */``` to span multiple lines.*
 3. **Which character must be placed at the end of each PHP statement?**
 *All PHP statements must end with a semicolon (;).*
 4. **Which symbol must be used to preface all PHP variables?**
