@@ -6,7 +6,7 @@
 3. **Which character must be placed at the end of each PHP statement?**
 <br>*All PHP statements must end with a semicolon (;).*<br><br>
 4. **Which symbol must be used to preface all PHP variables?**
-<br>*With the exception of constants, all PHP variables must begin with ```$```*
+<br>*With the exception of constants, all PHP variables must begin with ```$```.*<br><br>
 5. **What can a variable store?**
 <br>*Variables hold a value that can be a string, a number, or other data.*<br><br>
 6. **What is the difference between $variable = 1 and $variable == 1?**
