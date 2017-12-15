@@ -32,10 +32,10 @@
 16. **What is the difference between the (echo) and (print) commands?**
 <br>*The ```echo``` and ```print``` commands are similar in that they are both constructs, except that ```print``` behaves like a function and takes a single argument, while ```echo``` can take multiple arguments. Ex. ```$b ? print "TRUE" : print "FALSE";```*<br><br>
 17. **What is the purpose of functions?**
-<br>*italic*<br><br>
+<br>*The purpose of functions is to separate discrete sections of code into their own, self-contained sections that can be referenced by a single functions name. Also, functions prevent you from having to copy and paste the same portion of code a dozen times over.*<br><br>
 18. **How can you make a variable accessible to all parts of a PHP program?**
-<br>*italic*<br><br>
+<br>*You can make a variable accessible to all parts of a PHP program by declaring it as ```global```.*<br><br>
 19. **If you generate data within a function, what are a couple of ways to convey the data to the rest of the program?**
-<br>*italic*<br><br>
+<br>*If you generate data within a function, you can convey the data to the rest of the program by returning a value (```return $a```) or modifying a global variable.*<br><br>
 20. **What is the result of combining a string with a number?**
-<br>*italic*<br><br>
+<br>*When you combine a string with a number, the result is another string. In practice, you don't have to worry about vaiable types. Assign them and PHP will convert them is necessary.*<br><br>
