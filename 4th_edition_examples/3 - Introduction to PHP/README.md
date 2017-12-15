@@ -24,13 +24,13 @@
 12. **Are the operators && and (and) interchangeable?**
 <br>*Generally, the operators ```&&``` and ```and``` are interchangeable except where precedence is important, in which case ```&&``` has a high precedence, while ```and``` has a low one.*<br><br>
 13. **How can you create a multiline (echo) or assignment?**
-<br>*italic*<br><br>
+<br>*You can use multiple lines within quotation marks or the ```<<<_END..._END;``` construct to create a multiline ```echo``` or assignment. The closing tag must begin at the start of a new line, and end with a simicolon followed by a new line (In other words, it must be the* only *thing on that line--not even a comment is allowed to be added after it [not even a single space!]).*<br><br>
 14. **Can you redefine a constant?**
-<br>*italic*<br><br>
+<br>*You cannot redefine constants because, by definition, once defined they retain their value until the program terminates.*<br><br>
 15. **How do you escape a quotation mark?**
-<br>*italic*<br><br>
+<br>*You can use ```\'``` or ```\"``` to escape either a single or double quote.*<br><br>
 16. **What is the difference between the (echo) and (print) commands?**
-<br>*italic*<br><br>
+<br>*The ```echo``` and ```print``` commands are similar in that they are both constructs, except that ```print``` behaves like a function and takes a single argument, while ```echo``` can take multiple arguments. Ex. ```$b ? print "TRUE" : print "FALSE";```*<br><br>
 17. **What is the purpose of functions?**
 <br>*italic*<br><br>
 18. **How can you make a variable accessible to all parts of a PHP program?**
